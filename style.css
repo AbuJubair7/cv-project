@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4{
+    font-family: 'Playfair Display', serif;
+    color: blueviolet;
+}
+
+/* headding part */
+.header,main{
+
+    max-width: 1000px;
+    background-color: papayawhip;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+.profile-img{
+    float: left;
+    width: 100px;
+    height: 120px;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    
+}
+.intro{
+    float: left;
+    padding: 30px;
+}
+
+.header-contact{
+
+    float: right;
+    padding: 20px;
+}
+
+.header-contact p a{
+    text-decoration: none;
+    color: blueviolet;
+    cursor: pointer;
+}
+.header-contact p a:hover{
+    text-decoration : underline;
+    color:red;
+}
+.clear-float{
+    clear: both;
+}
+hr{
+    border: 3px solid salmon;
+    border-bottom: none;
+    margin: 10px auto;
+}
+
+ /* main section start */
+
+ /* information section */
+
+.info-head{
+    width: 30%;
+    float: left;
+}
+
+.info-deatails{
+    float: left;
+    width: 70%;
+}
+
+.section-end{
+    border: 2px solid salmon;
+    border-bottom: none;
+    margin: 20px auto;
+}
+
+/* work experience section */
+
+.work-head{
+    
+    width: 30%;
+    float: left;
+}
+
+.work-details{
+    float: left;
+    width: 70%;
+}
+
+ /* skill section */
+.skill-head{
+    width: 30%;
+    float: left;
+}
+
+.skill-details{
+    width: 70%;
+    float: left;
+}
+
+/* eduaction section */
+
+.education-head{
+    width: 30%;
+    float: left;
+}
+
+.education-details{
+    width: 70%;
+    float: left;
+}
+
+.education-list{
+    list-style: square;
+}
+
+/* references section*/
+.ref-head{
+    width: 30%;
+    float: left;
+}
+.ref-details-1{
+    width: 35%;
+    float: left;
+}
+.ref-details-2{
+    width: 35%;
+    float: left;
+}
+
+.ref-link{
+    text-decoration: none ;
+    
+}
+
+/* footer section */
+footer{
+    max-width: 1000px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.footer-up{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.footer-up ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+}
+
+.footer-down{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.footer-link{
+    text-decoration : none;
+    color: white;
+    
+}
+
+.footer-link:hover{
+    text-decoration : underline;
+    color: pink;
+    
+}
+
+
